@@ -1,0 +1,10 @@
+
+base-ubuntu-bionic/            ubuntu-bionic-base-jupyter/    ubuntu-bionic-jupyter-scipy/   ubuntu-bionic-minimal-jupyter/ yes]
+delete-all-images.sh           ubuntu-bionic-jupyter-latex/   ubuntu-bionic-latex/           yes
+
+base-ubuntu-bionic
+	-- ubuntu-bionic-latex
+		-- ubuntu-bionic-base-jupyter
+			-- ubuntu-bionic-jupyter-minimal
+				-- ubuntu-bionic-jupyter-scipy
+					-- ubuntu-bionic-jupyter-latex
