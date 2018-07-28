@@ -18,7 +18,7 @@ ARG USERGECOS=jovyan
 
 RUN apt-get update && apt-get install -y \
   texlive-full \
-  pandoc \
+  pandoc=1.18\
   python-pygments && \
   # Removing documentation packages *after* installing them is kind of hacky,
   # but it only adds some overhead while building the image.
